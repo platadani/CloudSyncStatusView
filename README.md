@@ -1,4 +1,4 @@
-# iCloud Sync Status View for SwiftUI
+# iCloud Sync Status View
 
 This component provides an elegant and functional view to display the iCloud synchronization status in iOS applications using SwiftData or CoreData with iCloud sync.
 
