@@ -25,7 +25,6 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            // Your content here
             CloudSyncStatusView(syncMonitor: cloudKitSyncMonitor)
         }
     }
@@ -36,14 +35,15 @@ struct ContentView: View {
 
 You can easily customize the appearance of the view by modifying the styles in the `CloudSyncStatusView` struct.
 
-## Visual Example
-
-![iCloud Sync Status View](./icloud_sync_status_view.png)
+## View
+iCloud Syncing Status
+<br>
+<img src="./icloud_syncing_image.png" width="300" alt="iCloud Syncing Status View">
+<br><br>
+iCloud Sync Status
+<br>
+<img src="./icloud_sync_image.png" width="300" alt="iCloud Sync Status View">
 
 ## Contributions
 
 Contributions are welcome. Please open an issue or submit a pull request to suggest changes or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
